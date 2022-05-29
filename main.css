@@ -1,0 +1,67 @@
+
+body::-webkit-scrollbar {
+    display: none;}
+
+    
+html {
+    scroll-behavior: smooth;
+}
+
+
+canvas
+{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+#bg{
+    background-image: url("https://ivanmartinezcarpio.github.io/distorsionLoop.gif");
+  background-size: cover;
+}
+
+main {
+    position: absolute;  
+}
+
+
+header {
+   color: azure;
+   text-align: center;
+   padding-top: 20em;
+   padding-bottom:30em;
+
+   font-family: Russo One;
+}
+
+h1 {
+    
+    text-align: center;
+    size: 3em;
+}
+
+blockquote {
+    opacity: 0;
+}
+
+section {
+opacity: 0;
+}
+
+#empezar {
+    
+        color: #ffffff;
+        
+    
+}
+
+#primeraParada {
+    padding-top: 20em;
+    padding-left: 15em;
+    opacity: 1;
+
+}
+
+/*# sourceMappingURL=main.css.map*/
