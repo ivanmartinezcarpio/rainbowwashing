@@ -1,16 +1,25 @@
+@font-face {
+    font-family: Roboto Mono;
+    src: url(assets/fonts/835ca7f9aef703b479cad3f577ccfaaa.ttf);
+  }
 
+  
+
+html {
+    scroll-behavior: smooth;
+    
+}
 
 
 body::-webkit-scrollbar {
     display: none;}
 
 
+body {
+    font-family: Roboto Mono;
+}   
     
-    
-html {
-    scroll-behavior: smooth;
-    
-}
+
 
 
 
@@ -23,13 +32,11 @@ canvas
     
 }
 
-#bg{
-    background-image: url("https://ivanmartinezcarpio.github.io/distorsionLoop.gif");
-  background-size: cover;
-}
+
 
 main {
-    position: absolute;  
+    position: absolute;
+    color: white;  
 }
 
 
@@ -48,13 +55,38 @@ h1 {
     size: 3em;
 }
 
+h2 {
+    font-family: Russo One;
+}
+
 blockquote {
     opacity: 0;
 }
 
 section {
-opacity: 0;
+opacity: 1;
 }
+
+.seccion1 {
+    margin-left: 4em;
+    margin-bottom: 20em;
+    margin-top: 15em;
+    
+}
+
+.rainbow-box {
+    border: 5px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+    padding-left: 1em;
+    padding-top: 2em;
+    
+
+  }
+
+  button {
+      margin-bottom: 1em;
+  }
 
 #empezar {
     
@@ -64,17 +96,19 @@ opacity: 0;
 }
 
 #primeraParada {
-    padding-top: 20em;
-    padding-left: 15em;
-    opacity: 1;
+    
+     size: 23em;
+       
+
 
 }
 
 #segundaParada {
-    padding-top: 30em;
-    padding-left: 15em;
-    opacity: 0;
+    
+    size: 23em;
 
 }
+
+
 
 /*# sourceMappingURL=main.css.map*/
