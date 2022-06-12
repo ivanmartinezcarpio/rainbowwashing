@@ -3,10 +3,14 @@
     src: url(assets/fonts/835ca7f9aef703b479cad3f577ccfaaa.ttf);
   }
 
-  
+  @font-face {
+    font-family: Russo One;
+    src: url(assets/fonts/b2f5b287ccb8fd446eae7a108562a2b8.ttf);
+  } 
 
 html {
     scroll-behavior: smooth;
+    
     
 }
 
@@ -17,6 +21,8 @@ body::-webkit-scrollbar {
 
 body {
     font-family: Roboto Mono;
+    background-color: black;;
+    
 }   
     
 
@@ -37,6 +43,7 @@ canvas
 main {
     position: absolute;
     color: white;  
+    padding-bottom: 10em;
 }
 
 
@@ -47,16 +54,20 @@ header {
    padding-bottom:30em;
 
    font-family: Russo One;
+   animation-name: titulo;
+  animation-duration: 4s;
 }
 
 h1 {
     
     text-align: center;
     size: 3em;
+    
 }
 
 h2 {
     font-family: Russo One;
+    
 }
 
 blockquote {
@@ -68,7 +79,7 @@ opacity: 1;
 }
 
 .seccion1 {
-    margin-left: 4em;
+   
     margin-bottom: 20em;
     margin-top: 15em;
     
@@ -80,6 +91,8 @@ opacity: 1;
     border-image-slice: 1;
     padding-left: 1em;
     padding-top: 2em;
+    background-color: rgba(0,0,0,.5);;
+    
     
 
   }
@@ -92,23 +105,50 @@ opacity: 1;
     
         color: #ffffff;
         
+        
     
 }
 
-#primeraParada {
-    
-     size: 23em;
-       
 
 
-}
-
-#segundaParada {
-    
-    size: 23em;
-
+.relleno {
+    padding-bottom: 4em;
 }
 
 
+#terceraParada {
+    margin-bottom: 15em;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+/* Animaciones */
+
+@keyframes titulo {
+   from {opacity: 0}
+   to {opacity: 1;} 
+}
+
+
+@keyframes arcoiris {
+    0% {color: white;}
+    16% {color: red;}
+    32% {color: orange}
+    48% {color: yellow}
+    64% {color: green;}
+    80% {color: blue}
+    100% {color: indigo}
+}
 
 /*# sourceMappingURL=main.css.map*/
