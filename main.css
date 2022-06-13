@@ -54,14 +54,15 @@ header {
    padding-bottom:30em;
 
    font-family: Russo One;
-   animation-name: titulo;
-  animation-duration: 4s;
+   
 }
 
 h1 {
     
     text-align: center;
     size: 3em;
+    animation-name: titulo;
+    animation-duration: 4s;
     
 }
 
@@ -102,8 +103,10 @@ opacity: 1;
   }
 
 #empezar {
-    
+    opacity: 0;
         color: #ffffff;
+        animation: introduccion 6s forwards 2s
+ 
         
         
     
@@ -132,12 +135,21 @@ a {
     
 }
 
+.centrales {
+    margin-top: 5em;
+}
+
 
 /* Animaciones */
 
 @keyframes titulo {
    from {opacity: 0}
    to {opacity: 1;} 
+}
+
+@keyframes introduccion {
+    from {opacity: 0}
+   to {opacity: 1;}
 }
 
 
@@ -150,5 +162,19 @@ a {
     80% {color: blue}
     100% {color: indigo}
 }
+
+/*Responsive movil*/
+
+@media only screen and (max-width: 768px){
+    header {
+        padding-top: 15em;
+    }
+
+    main {
+        padding-bottom: 15em;
+    }
+}
+
+
 
 /*# sourceMappingURL=main.css.map*/
