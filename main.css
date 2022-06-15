@@ -138,13 +138,15 @@ opacity: 1;
 }
 
 a:hover {
-    color: rgb(255, 97, 234);
+    font-family: Russo one;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 
 }
 
 a {
-    color: rgb(255, 97, 234);
+    font-family: Russo one;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     
 }
